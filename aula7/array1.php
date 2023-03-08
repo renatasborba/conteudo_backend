@@ -34,3 +34,19 @@
     $variavel[2] = "Pera";
     $variavel[3] = "Laranja";
 </pre>
+
+<?php
+    $variavel = ["Maça", "Uva", "Pera", "Laranja"];
+    var_dump($variavel); //para imprimir o vetor
+
+    echo "<p>&nbsp;</p>";
+    echo $variavel[0] . "<br>"; //para imprimir índice específico
+    echo $variavel[1] . "<br>";
+    echo $variavel[2] . "<br>";
+    echo $variavel[3] . "<br>";
+
+    echo "<p>&nbsp;</p>";
+    for($i = 0; $i <=3; $i++){
+        echo $variavel($i) . "<br>";
+    }
+?>
