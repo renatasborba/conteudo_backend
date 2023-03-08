@@ -7,7 +7,7 @@
 }
 </style>
 
-<h2>Estrutura de repetição - for.</h2>
+<h2>Estrutura de repetição - for</h2>
 <p>
     Utilizada para repetir um conjunto de intruções por um
     número determinado de vezes.
