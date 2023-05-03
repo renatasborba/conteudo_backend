@@ -1,9 +1,10 @@
-
-
 <?php
    
    //importa o arquivo de conexão
-   require_once "../conexao.php";
+   require_once "conexao.php";
+
+   //verifica se foi enviada o param id pela url
+   if(isset($_GET['id'])){
 
    $id = $_GET['id'];
 
@@ -25,10 +26,7 @@
    //pega a primeira linha do resultado da consulta
    $usuario = $resultados->fetch_object();
 
-   //imprimir usuario
-   var_dump->$usuario;
-
-
+   }
 
 
 
