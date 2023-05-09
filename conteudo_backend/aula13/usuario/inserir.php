@@ -19,7 +19,7 @@
    //executa o comando
    $comando->execute();
 
-   //volta para o formulário
+   //volta para o formulário wqiuhbagudadadad
    header("Location: ../form_usuario.php");
 
    
