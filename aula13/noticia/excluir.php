@@ -1,5 +1,6 @@
 <?php
-   
+   //só usuarios logados podem excluir
+   require_once "../login/controlar_acesso.php";
    //importa o arquivo de conexão
    require_once "../banco/conexao.php";
 
