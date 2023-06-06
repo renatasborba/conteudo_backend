@@ -1,7 +1,7 @@
 <?php
    
    //importa o arquivo de conexão
-   require_once "../banco/conexao.php";
+   require_once "../banco/conexao.php"; 
 
    //cria uma variável com um comando SQL
    $SQL = "SELECT * FROM noticia";
@@ -12,19 +12,12 @@
    //executa o comando
    $comando->execute();
 
-   //pegar os resultados da consulta - todas as linhas de resultados
-   $resultados = $comando->get_result();
+//pegar os resultados da consulta - todas as linhas de resultados
+$resultados = $comando->get_result();
 
-   //pega todas as linhas e armazana dentro da variável
-   $noticias = [];
-   while($noticia = $resultados->fetch_object()){
-      $noticias[] = $noticia;
-   }
-
-
-
-
-
-
-
+//pega todas as linha de resultado da consulta
+$noticias = [];
+while ($noticia = $resultados->fetch_object()){
+   $noticias[] = $noticia;
+}
 

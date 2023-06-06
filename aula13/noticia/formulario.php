@@ -3,7 +3,6 @@
     require_once "../template/cabecalho.php";
 ?>
     <div class="container">
-        
     <h1>Cadastro de noticias</h1>
     <hr>
 
@@ -29,7 +28,7 @@
         <label class="form-label">Foto</label><br>
         <input type="file" class="form-control" name="foto"><br>
 
-        <button type="submit" class="btn btn-info">Inserir</button>
+        <button type="submit" class="btn btn-primary">Inserir</button>
         
     </form>
     

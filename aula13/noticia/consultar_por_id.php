@@ -3,8 +3,8 @@
    //importa o arquivo de conexão
    require_once "../banco/conexao.php";
 
-   //verifica se foi enviada o param id pela url
-   if(isset($_GET['id'])){
+   //verifica se foi enviada o param id pela URL
+      if(isset($_GET['id'])){
 
    $id = $_GET['id'];
 
@@ -20,16 +20,11 @@
    //executa o comando
    $comando->execute();
 
-   //pegar os resultados da consulta - todas as linhas de resultados
-   $resultados = $comando->get_result();
+//pegar os resultados da consulta - todas as linhas de resultados
+$resultados = $comando->get_result();
 
-   //pega a primeira linha do resultado da consulta
-   $noticia = $resultados->fetch_object();
+//pega a primeira linha de resultado da consulta
+$noticia = $resultados->fetch_object();
+
 
    }
-
-
-
-
-
-
