@@ -15,7 +15,7 @@
       $idade = $_POST['idade'];
 
    //cria uma variável com um comando SQL
-   $SQL = "INSERT INTO `usuario` (`nome_dono`, `nome_animal`, `raca`, `peso`, `idade`) VALUES (?, ?, ?, ?, ?);"; 
+   $SQL = "INSERT INTO `animal` (`nome_dono`, `nome_animal`, `raca`, `peso`, `idade`) VALUES (?, ?, ?, ?, ?);"; 
  
    //prepara o comando para ser executado no mysql
    $comando = $conexao->prepare($SQL);

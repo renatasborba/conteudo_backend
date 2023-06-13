@@ -15,7 +15,7 @@
    $comando = $conexao->prepare($SQL);
 
    //diz qual valor vai ser colocado no lugar do ?
-   $comando->bind_param("i", $codanimal);
+   $comando->bind_param("i", $id);
 
    //executa o comando
    $comando->execute();

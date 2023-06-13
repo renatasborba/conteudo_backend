@@ -16,7 +16,7 @@
 $resultados = $comando->get_result();
 
 //pega todas as linha de resultado da consulta
-$animaiss = [];
+$animais = [];
 while ($animal = $resultados->fetch_object()){
    $animais[] = $animal;
 }
