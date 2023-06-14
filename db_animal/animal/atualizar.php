@@ -3,6 +3,7 @@
    //importa o arquivo de conexão
    require_once "../conexao.php";
 
+   //define variáveis para obter os valores específicos dos campos do banco de dados
    $nome_dono = $_POST['nome_dono'];
    $nome_animal = $_POST['nome_animal'];
    $raca = $_POST['raca'];
