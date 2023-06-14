@@ -20,3 +20,4 @@ if($conexao->connect_error){
     die();
 }
 
+?>
