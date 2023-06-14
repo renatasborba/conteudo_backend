@@ -1,5 +1,6 @@
 <?php
 
+//declara as variáveis antes de se conectar com o sql
 $host = "127.0.0.1";
 $user = "root";
 $password = "";
