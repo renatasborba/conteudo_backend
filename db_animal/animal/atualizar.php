@@ -16,7 +16,7 @@
    //prepara o comando para ser executado no mysql
    $comando = $conexao->prepare($SQL);
 
-   //faz a vinculação dos parâmetros ?, ?, ?
+   //faz a vinculação dos parâmetros ?, ?, ?, ?, ?, ?
    $comando->bind_param("sssiii", $nome_dono, $nome_animal, $raca, $peso, $idade, $codanimal);
 
    //executa o comando
