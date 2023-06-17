@@ -13,7 +13,7 @@
     <title>Veterinária</title>
 </head>
 <body>
-    <h1>Cadastro de animal</h1>
+    <h1>Cadastro de Animais</h1>
     <hr>
 
     <form action="<?php echo isset($animal) ?
