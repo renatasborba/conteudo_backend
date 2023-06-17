@@ -44,7 +44,7 @@
         <td><?= $animal->peso ?></td>
         <td><?= $animal->idade ?></td>
         <td class="text-end" width="25%">
-        <a href="formulario.php?id=<?= $animal->codanimal ?>" class="btn btn-primary">
+        <a href="atualizar.php?id=<?= $animal->codanimal ?>" class="btn btn-primary">
             <i class="fa-regular fa-pen-to-square"></i>
             Atualizar
           </a>
