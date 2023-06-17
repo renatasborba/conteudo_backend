@@ -1,7 +1,7 @@
 <?php
    
    //importa o arquivo de conexão
-   require_once "../conexao.php";
+   require_once "../banco/conexao.php";
 
    //define variáveis para obter os valores específicos dos campos do banco de dados
    $nome_dono = $_POST['nome_dono'];
