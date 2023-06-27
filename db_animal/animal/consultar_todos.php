@@ -20,4 +20,5 @@ $animais = [];
 while ($animal = $resultados->fetch_object()){
    $animais[] = $animal;
 }
+?>
 

@@ -17,9 +17,10 @@
    //executa o comando
    $comando->execute();
 
-   //volta para a listagem de usuários
+   //volta para a listagem de animais
    header("Location: index.php");
 
+?>
    
 
 

@@ -3,6 +3,7 @@
    //importa o arquivo de conexão
    require_once "../conexao.php";
 
+   //define variáveis para obter os valores específicos dos campos do banco de dados
    $id = $_POST['idusuario'];
    $nome = $_POST['nome'];
    $login = $_POST['login'];
