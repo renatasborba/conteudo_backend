@@ -24,7 +24,9 @@
 $resultados = $comando->get_result();
 
 //pega a primeira linha de resultado da consulta
-$usuario = $resultados->fetch_object();
+$animal = $resultados->fetch_object();
 
 
    }
+
+?>
